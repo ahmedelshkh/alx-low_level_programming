@@ -4,21 +4,21 @@
 
 /* this is the main code*/
 /**
- * main - Entry point
- * Description: if-else program.
- * Return: (0) always - Success
- */
+* main - Entry point
+* Description: if-else program.
+* Return: (0) always - Success
+*/
 int main(void)
 {
 int n;
-  
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-if (n > 0) 
+if (n>0) 
 printf("%i is positive\n", n);
 
-else if (n < 0) 
+else if (n<0) 
 printf("%i is negative\n", n);
 
 else
