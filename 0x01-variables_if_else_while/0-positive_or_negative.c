@@ -3,6 +3,11 @@
 #include <time.h>
 
 /* this is the main code*/
+/**
+ * main - Entry point
+ * Description: if-else program.
+ * Return: (0) always - Success
+ */
 int main(void)
 {
   int n;
