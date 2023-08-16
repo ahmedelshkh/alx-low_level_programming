@@ -14,7 +14,7 @@ int main(void)
 	b = 2;
 	printf("%ld, %ld", a, b);
 
-	for (i = 0, i < 500; i++)
+	for (i = 0; i < 500; i++)
 	{
 		sum = a + b;
 		printf(", %ld", sum);
