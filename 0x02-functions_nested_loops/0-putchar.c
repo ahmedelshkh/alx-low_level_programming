@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- *main - Entry point 
- *Return :Always 0 (What about now?????)
+ *main - Entry point
+ *Return :Always 0(What about now?????)
  *
  */
-
 int main(void)
 {
 
