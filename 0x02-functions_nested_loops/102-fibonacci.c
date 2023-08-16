@@ -7,18 +7,20 @@
 
 int main(void)
 {
-	long int i, a, b, sum;
+	int i;
+	long int a, b, sum;
 
 	a = 1;
 	b = 2;
+	printf("%ld, %ld", a, b);
 
-	for (i = 0, sum = 0; a < 4000000; i++)
+	for (i = 0, i < 500; i++)
 	{
-		if (!(a % 2))
-			sum += a;
-		b = a + b;
-		a = b - a;
+		sum = a + b;
+		printf(", %ld", sum);
+		a = b;
+		b = sum;
 	}
-	printf("%ld\n", sum);
+	printf("\n");
 	return (0);
 }
