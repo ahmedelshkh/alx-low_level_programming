@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *main - entry point
- *return :always 0
+ *main - Entry point 
+ *Return :Always 0 (What about now?????)
  *
  */
 
