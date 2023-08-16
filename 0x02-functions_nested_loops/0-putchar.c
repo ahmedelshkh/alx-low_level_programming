@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Return :Always 0(What about now?????)
+ * main-print putchar followed by a new line
  *
+ *Return :always 0
  */
+
 int main(void)
 {
 
